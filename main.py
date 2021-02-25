@@ -4,6 +4,7 @@ from draw import *
 s = new_screen()
 c = [ 0, 255, 0 ]
 
+'''
 #octants 1 and 5
 draw_line(0, 0, XRES-1, YRES-1, s, c)
 draw_line(0, 0, XRES-1, YRES / 2, s, c)
@@ -27,6 +28,7 @@ c[BLUE] = 255;
 draw_line(0, YRES-1, XRES/2, 0, s, c);
 draw_line(XRES-1, 0, XRES/2, YRES-1, s, c);
 
+'''
 #horizontal and vertical
 c[BLUE] = 0;
 c[GREEN] = 255;

@@ -5,6 +5,7 @@ import random
 s = new_screen()
 c = [0, 255, 0]
 
+'''
 #sun
 for i in range(100):
      c[RED]=random.randint(220,250)
@@ -67,7 +68,6 @@ c[BLUE] = 0;
 c[GREEN] = 255;
 draw_line(0, YRES/2, XRES-1, YRES/2, s, c);
 draw_line(XRES/2, 0, XRES/2, YRES-1, s, c);
-'''
 
 display(s)
 save_ppm(s, 'binary.ppm')
